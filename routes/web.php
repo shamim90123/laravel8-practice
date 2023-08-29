@@ -34,3 +34,7 @@ Route::get('/test', function () {
 });
 
 
+Route::get('/hello', function () {
+    return 'Hello, World!';
+});
+
